@@ -16,12 +16,4 @@ Route::get('/home', function(){
     return view('home', ['framework' => 'Laravel']);
 });
 
-//Basic
-Route::get('/test', function(){
-    return 'test';
-});
 
-//Default: retourner une vue
-Route::get('/', function () {
-    return view('welcome');
-});
