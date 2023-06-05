@@ -12,8 +12,13 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/home', function(){
-    return view('home', ['framework' => 'Laravel']);
+Route::get('/', [\App\Http\Controllers\PostController::class, 'index']);
+    //La route écoute la home page
+    
+
+
+Route::get('hello-world', function(){
+    return view('hello-world');
 });
 
 
