@@ -7,7 +7,7 @@
         <title>Mon mini-blog</title>
     </head>
     <body>
-        <h1>Nos articles</h1>
+        <h1>Le Reiki</h1>
         <ul>
             @foreach($articles as $article)
                 <li>{{$article['title']}}</li>
