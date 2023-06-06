@@ -2,3 +2,15 @@ body
 {
     background-image: url(../img/backGround.jpg);
 }
+
+#titles
+{
+    margin-top: 10%;
+}
+
+#mainTitle
+{
+    text-align: center;
+    font-size: 6em;
+    margin-top: 0%;
+}
