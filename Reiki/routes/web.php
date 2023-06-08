@@ -17,8 +17,8 @@ Route::get('/', [\App\Http\Controllers\PostController::class, 'index']);
     
 
 
-Route::get('hello-world', function(){
-    return view('hello-world');
+Route::get('introduction', function(){
+    return view('introduction');
 });
 
 

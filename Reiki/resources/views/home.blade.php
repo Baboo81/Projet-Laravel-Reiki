@@ -12,11 +12,6 @@
             <h1 id="mainTitle">Le Reiki</h1>
             <h1 id="mainTitle">un art de vivre</h1>
         </div>
-        <ul>
-            @foreach($articles as $article)
-                <li>{{$article['title']}}</li>
-            @endforeach
-        </ul>
     </body>
 </html>
 
