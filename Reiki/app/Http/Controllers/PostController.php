@@ -6,25 +6,33 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    public function index(){
-        $articles = [
-        [
-           'title' => 'Mon premier article',
-           'content' => 'Voici un magnifique bonsaï' 
-        ],
-        [
-            'title' => 'Mon deuxième article',
-            'content' => 'Voici notre belle labradorite'
-        ],
-        [
-            'title' => 'Mon troisième article',
-            'content' => 'Voici mon livre de chevet'
-        ],
-    ];
- 
+    public function index()
+    {
+        $posts = [
+            'Le Reiki',
+            'un art de vivre'
+        ];
+       
 
-    return view('home', [
-        'articles' => $articles
-    ]);
+        return view('home', compact('posts'));
+    }
+
+    public function introduction($id)
+    {
+        $posts = [
+            1 => 'Origine',
+            2 => 'État d\'esprit'
+        ];
+
+        $post = $posts[$id];
+
+        return view('introduction', [
+            'posts' => $post
+        ]);
+    }
+
+    public function techniques ()
+    {
+        return view('techniques');
     }
 }

@@ -9,8 +9,9 @@
     </head>
     <body>
         <div id="titles">
-            <h1 id="mainTitle">Le Reiki</h1>
-            <h1 id="mainTitle">un art de vivre</h1>
+            @foreach($posts as  $post)
+                <h1 id="mainTitle">{{ $post }}</h1>
+            @endforeach
         </div>
     </body>
 </html>
