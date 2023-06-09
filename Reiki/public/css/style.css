@@ -2,9 +2,10 @@
 
 :root
 {
-    --Olive : #829079;
-    --Beige : #ede6b9;
-    --Ambré : #b9925e;
+    --Turquoise : #1fbfb8;
+    --Olive : #05716c;
+    --Bleu : #1978a5;
+    --BleuMarine : #031163;
 }
 
 body
@@ -23,6 +24,6 @@ body
     text-align: center;
     font-size: 9em;
     font-family: 'Tangerine', cursive;
-    color: var(--Olive);
+    color: var(--BleuMarine);
     margin-top: 0%;
 }
