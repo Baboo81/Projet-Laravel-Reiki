@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display&family=Poppins:wght@200&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Castoro+Titling&family=Shippori+Mincho:wght@500&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 :root
 {
@@ -26,4 +28,10 @@ body
     font-family: 'Tangerine', cursive;
     color: var(--BleuMarine);
     margin-top: 0%;
+}
+
+p
+{
+    font-family: 'Aboreto', cursive; 
+    font-family: 'Crimson Text', serif;
 }
