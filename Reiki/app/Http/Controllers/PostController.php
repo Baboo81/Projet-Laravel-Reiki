@@ -33,6 +33,10 @@ class PostController extends Controller
 
     public function techniques ()
     {
+        $techTitle = [
+            'Imposition par les mains'
+        ];
+
         return view('techniques');
     }
 }
