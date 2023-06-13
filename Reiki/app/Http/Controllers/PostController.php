@@ -21,7 +21,7 @@ class PostController extends Controller
     {
         $posts = [
             1 => 'Origine',
-            2 => 'État d\'esprit'
+            2 => 'État desprit'
         ];
 
         $post = $posts[$id];
@@ -37,6 +37,8 @@ class PostController extends Controller
             'Imposition par les mains'
         ];
 
-        return view('techniques');
+        return view('techniques', [
+            'techTitle' => $techTitle
+        ]);
     }
 }
