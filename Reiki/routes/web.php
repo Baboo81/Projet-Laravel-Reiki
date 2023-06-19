@@ -16,9 +16,11 @@ use App\Http\Controllers\PostController;
 Route::get('/', [PostController::class, 'index']);
     //La route écoute la home page
     
-Route::get('/introduction/{id}', [PostController::class, 'introduction']);
+Route::get('/introduction/{id}', [PostController::class, 'show']);
 
-Route::get('/techniques', [PostController::class, 'techniques']);
+Route::get('/techniques', [PostController::class, 'content']);
+
+Route::get('contact', [PostController::class, 'form']);
 
 
 

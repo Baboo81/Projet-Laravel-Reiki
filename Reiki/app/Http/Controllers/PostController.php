@@ -17,28 +17,33 @@ class PostController extends Controller
         return view('home', compact('posts'));
     }
 
-    public function introduction($id)
+    public function show($id)
     {
         $posts = [
             1 => 'Origine',
-            2 => 'État desprit'
+            2 => 'État d\'esprit'
         ];
 
-        $post = $posts[$id];
+        $post = $posts[$id] ?? 'Pas de titre';
 
-        return view('introduction', [
-            'posts' => $post
-        ]);
+        return view('introduction', compact('post'));
     }
 
-    public function techniques ()
+    public function content ()
     {
-        $techTitle = [
+        $posts = [
             'Imposition par les mains'
         ];
 
-        return view('techniques', [
-            'techTitle' => $techTitle
-        ]);
+        return view('techniques', compact('posts'));
+    }
+
+    public function form() 
+    {
+        $posts = [
+            'Contactez-moi'
+        ];
+
+        return view('contact', compact('posts'));
     }
 }
