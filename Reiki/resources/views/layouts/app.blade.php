@@ -7,6 +7,7 @@
     <title>Le Reiki, un art de vivre</title>
 </head>
     <body>
+        @include('partials.navbar')
         <!--Contenu dynamique-->
         @yield('content')
     </body>
