@@ -30,6 +30,11 @@ body
     margin-top: 0%;
 }
 
+#subTitles
+{
+    font-size: 5em;
+}
+
 p
 {
     font-family: 'Aboreto', cursive; 

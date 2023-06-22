@@ -17,16 +17,15 @@ class PostController extends Controller
         return view('home', compact('posts'));
     }
 
-    public function show($id)
+    public function show()
     {
-        $posts = [
-            1 => 'Origine',
-            2 => 'État d\'esprit'
+        $titles = [
+            'Origine',
+            'État d\'esprit'
         ];
 
-        $post = $posts[$id] ?? 'Pas de titre';
 
-        return view('introduction', compact('post'));
+        return view('introduction', compact('titles'));
     }
 
     public function content ()
