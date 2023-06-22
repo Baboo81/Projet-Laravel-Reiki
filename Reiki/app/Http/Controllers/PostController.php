@@ -39,10 +39,10 @@ class PostController extends Controller
 
     public function contact() 
     {
-        $posts = [
+        $contact = [
             'Contactez-moi'
         ];
 
-        return view('contact', compact('posts'));
+        return view('contact', compact('contact'));
     }
 }
