@@ -13,6 +13,7 @@
                 <h1>{{ $title }}</h1>
             @endforeach 
         </div>
-        
+        <img src="./Reiki/public/img/stones.jpg" alt="photo de pierres">
+
     </body>
 </html> 

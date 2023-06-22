@@ -37,7 +37,7 @@ class PostController extends Controller
         return view('techniques', compact('posts'));
     }
 
-    public function form() 
+    public function contact() 
     {
         $posts = [
             'Contactez-moi'
