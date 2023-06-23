@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Le Reiki, un art de vivre</title>
     <!--Lien vers le css-->
-    {{ asset('css/app.css') }}
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
     <body>
         @include('partials.navbar')
         <!--Contenu dynamique-->
         @yield('content')
-        <!--Lien vers le fichier js-->
-        {{ asset('js/app.js') }}
     </body>
 </html>
