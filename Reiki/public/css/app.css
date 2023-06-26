@@ -63,6 +63,14 @@ li a:hover
     margin-top: 0%;
 }
 
+#titleIntro
+{
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+    color: var(--Saumon);
+    margin-top: 10%;
+}
+
 p
 {
     font-family: 'Aboreto', cursive; 

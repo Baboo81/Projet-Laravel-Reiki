@@ -20,8 +20,7 @@ class PostController extends Controller
     public function show()
     {
         $titles = [
-            'Origine',
-            'État d\'esprit'
+            'Origine'
         ];
 
 

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-        <div>
+        <div id="titleIntro">
             @foreach($titles as $title)
                 <h1>{{ $title }}</h1>
             @endforeach 
