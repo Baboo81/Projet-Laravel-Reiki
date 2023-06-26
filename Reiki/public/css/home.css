@@ -15,6 +15,27 @@ body
     background-image: url(../img/backGround.jpg);
 }
 
+ul
+{
+    position: fixed;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li
+{
+    padding: 1%;
+}
+
+li a 
+{
+    color: var(--Olive);
+}
+
 #titles
 {
     margin-top: 10%;
