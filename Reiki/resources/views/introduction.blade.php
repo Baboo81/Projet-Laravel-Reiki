@@ -6,6 +6,8 @@
                 <h1>{{ $title }}</h1>
             @endforeach 
         </div>
-        <img src="./Reiki/public/img/stones.jpg" alt="photo de pierres">
+        <article>
+            <p>{{ $txt }}</p>
+        </article>
 @endsection
  
