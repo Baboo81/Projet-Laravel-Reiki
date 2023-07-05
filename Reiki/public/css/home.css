@@ -33,7 +33,7 @@ li
 
 li a 
 {
-    color: var(--Olive);
+    color: var(--Turquoise);
 }
 
 #titles
@@ -47,7 +47,7 @@ li a
     text-align: center;
     font-size: 9em;
     font-family: 'Tangerine', cursive;
-    color: var(--BleuMarine);
+    color: var(--Turquoise);
     margin-top: 0%;
 }
 

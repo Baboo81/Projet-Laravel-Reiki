@@ -9,6 +9,10 @@
     --Gris : #7D8E95;
     --GrisFoncé : #344648;
     --White : #FFFFFF;
+    --Turquoise : #1fbfb8;
+    --Olive : #05716c;
+    --Bleu : #1978a5;
+    --BleuMarine : #031163;
 }
 
 body
@@ -35,7 +39,7 @@ li
 
 li a 
 {
-    color: var(--GrisFoncé);
+    color: var(--BleuMarine);
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -59,7 +63,7 @@ li a:hover
     text-align: center;
     font-size: 9em;
     font-family: 'Tangerine', cursive;
-    color: var(--Gris);
+    color: var(--BleuMarine);
     margin-top: 0%;
 }
 
