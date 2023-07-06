@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-        <h1> {{$contact}} </h1>
+        <h1> {{$join}} </h1>
 @endsection
