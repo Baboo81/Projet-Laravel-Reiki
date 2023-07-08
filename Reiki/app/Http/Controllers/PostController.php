@@ -17,27 +17,24 @@ class PostController extends Controller
         return view('home', compact('posts'));
     }
 
-    public function hola()
+    public function intro()
     {
         $title = 'Qu\' est-ce que le Reiki ?';
        
         return view('introduction', compact('title'));
     }
 
-    public function content ()
+    public function tech ()
     {
-        $posts = [
-            'Imposition par les mains'
-        ];
+        $posts = 'Imposition par les mains';
 
         return view('techniques', compact('posts'));
     }
 
-    public function contact() 
+    public function form() 
     {
-        $join = [
-            'Contactez-moi'
-        ];
+        $join = 'Contactez-moi';
+
 
         return view('contact', compact('join'));
     }

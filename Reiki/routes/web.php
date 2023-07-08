@@ -16,11 +16,11 @@ use App\Http\Controllers\PostController;
 Route::get('/', [PostController::class, 'index'])->name('welcome');
     //La route écoute la home page, name sert à nommer les routes
     
-Route::get('/introduction', [PostController::class, 'hola'])->name('introduction');
+Route::get('/introduction', [PostController::class, 'intro'])->name('introduction');
 
-Route::get('/techniques', [PostController::class, 'content'])->name('techniques');
+Route::get('/techniques', [PostController::class, 'tech'])->name('techniques');
 
-Route::get('/contact', [PostController::class, 'form'])->name('contact');
+Route::get('/contact/{persona?}', [PostController::class, 'form'])->name('contact');
 
 
 
