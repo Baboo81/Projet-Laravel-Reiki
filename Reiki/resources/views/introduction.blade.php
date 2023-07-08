@@ -2,12 +2,7 @@
 
 @section('content')
         <div id="titleIntro">
-            @foreach($titles as $title)
-                <h1>{{ $title }}</h1>
-            @endforeach 
+            <h1> {{$title}} </h1>
         </div>
-        <article>
-            <p>{{ $txt }}</p>
-        </article>
 @endsection
  

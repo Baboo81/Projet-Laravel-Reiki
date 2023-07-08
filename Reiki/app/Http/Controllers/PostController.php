@@ -19,8 +19,9 @@ class PostController extends Controller
 
     public function hola()
     {
+        $title = 'Qu\' est-ce que le Reiki ?';
        
-        return 'hola mundo';
+        return view('introduction', compact('title'));
     }
 
     public function content ()
