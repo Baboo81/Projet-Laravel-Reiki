@@ -35,7 +35,15 @@ class PostController extends Controller
     {
         $join = 'Contactez-moi';
 
-
         return view('contact', compact('join'));
+    }
+
+    public function parametros($param_1, $param_2, $param_3)
+    {
+        $textoFinal1 = 'El parametro 1 vale' . $param_1 . ' . ';
+        $textoFinal2 = 'El parametro 2 vale' . $param_2 . ' . ';
+        $textoFinal3 = 'El parametro 3 vale' . $param_3 . ' . ';
+
+        return view('parametros', compact('textoFinal1', 'textoFinal2', 'textoFinal3'));
     }
 }

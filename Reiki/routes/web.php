@@ -20,7 +20,9 @@ Route::get('/introduction', [PostController::class, 'intro'])->name('introductio
 
 Route::get('/techniques', [PostController::class, 'tech'])->name('techniques');
 
-Route::get('/contact/{persona?}', [PostController::class, 'form'])->name('contact');
+Route::get('/contact', [PostController::class, 'form'])->name('contact');
+
+Route::get('/parametros/{param_1}/{param_2}/{param_3}', [PostController::class, 'parametros'])->name('parametros');
 
 
 
