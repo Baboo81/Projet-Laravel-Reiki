@@ -15,6 +15,10 @@
     --BleuMarine : #031163;
 }
 
+body
+{
+    background-image: url(../img/fengShui.jpg);
+}
 
 ul
 {
@@ -76,3 +80,17 @@ p
     font-family: 'Aboreto', cursive; 
     font-family: 'Crimson Text', serif;
 }
+
+/*Techniques.blade */
+#titleTech
+{
+    margin-top: 10%;
+}
+/*END*/
+
+/*Contact.blade*/
+#titleContact
+{
+    margin-top: 10%;
+}
+/*END*/
