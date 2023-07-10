@@ -81,6 +81,14 @@ p
     font-family: 'Crimson Text', serif;
 }
 
+/*Introduction.blade*/
+#contentIntro
+{
+    height: 20%;
+    width: 20%;
+}
+/*END*/
+
 /*Techniques.blade */
 #titleTech
 {

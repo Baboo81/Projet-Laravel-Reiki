@@ -2,7 +2,7 @@
 
 @section('content')
     <div>
-        <h1 id="titleTech">{{ $posts }}</h1>
+        <h1 id="titleTech"> {{ $posts }} </h1>
     </div>
 @endsection
 
