@@ -67,14 +67,6 @@ li a:hover
     margin-top: 0%;
 }
 
-#titleIntro
-{
-    font-family: 'Tangerine', cursive;
-    font-size: 2em;
-    color: var(--Saumon);
-    margin-top: 10%;
-}
-
 p
 {
     font-family: 'Aboreto', cursive; 
@@ -82,10 +74,26 @@ p
 }
 
 /*Introduction.blade*/
+#titleIntro
+{
+    font-family: 'Tangerine', cursive;
+    font-size: 4em;
+    color: var(--BleuMarine);
+    margin-top: 10%;
+}
+
 #contentIntro
 {
     height: 20%;
     width: 20%;
+    color: var(--Saumon);
+    font-family: 'Aboreto', cursive;
+    font-size: 1.2em;
+}
+
+#mainContent
+{
+    margin-left: 5%;
 }
 /*END*/
 
