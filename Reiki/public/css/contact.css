@@ -52,23 +52,9 @@ li a:hover
     color: var(--Turquoise);
 }
 
-#titles
+/*Contact.blade*/
+#titleContact
 {
     margin-top: 10%;
-    margin-left: 40%;
 }
-
-#mainTitle
-{
-    text-align: center;
-    font-size: 9em;
-    font-family: 'Tangerine', cursive;
-    color: var(--BleuMarine);
-    margin-top: 0%;
-}
-
-p
-{
-    font-family: 'Aboreto', cursive; 
-    font-family: 'Crimson Text', serif;
-}
+/*END*/

@@ -52,23 +52,34 @@ li a:hover
     color: var(--Turquoise);
 }
 
-#titles
+/*Introduction.blade*/
+#titleIntro
 {
-    margin-top: 10%;
-    margin-left: 40%;
-}
-
-#mainTitle
-{
-    text-align: center;
-    font-size: 9em;
     font-family: 'Tangerine', cursive;
+    font-size: 4em;
     color: var(--BleuMarine);
-    margin-top: 0%;
+    margin-top: 10%;
 }
 
-p
+#contentIntro
 {
-    font-family: 'Aboreto', cursive; 
-    font-family: 'Crimson Text', serif;
+    height: 20%;
+    width: 20%;
+    color: var(--Saumon);
+    font-family: 'Aboreto', cursive;
+    font-size: 1.2em;
 }
+
+#mainContent
+{
+    margin-left: 5%;
+}
+
+#imgChrysanthem
+{
+    height: 30%;
+    width: 30%;
+    margin-top: 20%;
+}
+
+/*END*/
