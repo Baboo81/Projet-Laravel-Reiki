@@ -20,37 +20,6 @@ body
     overflow-x: hidden;
 }
 
-ul
-{
-    position: fixed;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-top: -10%;
-}
-
-li
-{
-    padding: 1%;
-}
-
-li a 
-{
-    color: var(--BleuMarine);
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover
-{
-    color: var(--Turquoise);
-}
 
 /*Contact.blade*/
 #titleContact

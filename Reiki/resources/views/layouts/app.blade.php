@@ -7,6 +7,7 @@
     <title>Le Reiki, un art de vivre</title>
     <!--Lien vers le css-->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/navBar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
     <link rel="stylesheet" href="{{ asset('css/introduction.css') }}">
     <link rel="stylesheet" href="{{ asset('css/techniques.css') }}">
