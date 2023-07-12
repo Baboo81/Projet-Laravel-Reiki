@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display&family=Poppins:wght@200&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Castoro+Titling&family=Shippori+Mincho:wght@500&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+:root
+{
+    --Beige : #FBE0C3;
+    --Saumon : #FFBB98;
+    --Gris : #7D8E95;
+    --GrisFoncé : #344648;
+    --White : #FFFFFF;
+    --Turquoise : #1fbfb8;
+    --Olive : #05716c;
+    --Bleu : #1978a5;
+    --BleuMarine : #031163;
+}
+
+footer
+{
+    height: 300px;
+    width: 100%;
+    background-color: var(--BleuMarine);
+    color: var(--Saumon);
+}
+
+#pictoLinkedIn
+{
+    height: 40px;
+    width: 40px;
+}
+
+
+#pictoMail
+{
+    height: 40px;
+    width: 40px;
+}

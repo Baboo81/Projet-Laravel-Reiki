@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ asset('css/introduction.css') }}">
     <link rel="stylesheet" href="{{ asset('css/techniques.css') }}">
     <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+    <link rel="stylesheet" href=" {{ asset('css/footer.css')}} ">
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
     <body>
