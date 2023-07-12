@@ -5,7 +5,6 @@
             @foreach($posts as  $post)
                 <h1 id="mainTitle">{{ $post }}</h1>
             @endforeach
-            <img id="imgFengShui" src="./img/fengShui.jpg" alt="image de pierres en équilibre" >
         </div>
 @endsection
 
