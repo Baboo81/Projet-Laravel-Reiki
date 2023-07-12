@@ -17,10 +17,22 @@
 
 footer
 {
-    height: 300px;
+    height: 370px;
     width: 100%;
     background-color: var(--BleuMarine);
     color: var(--Saumon);
+    
+}
+
+address
+{
+    text-align: center;
+    padding: 1%;
+}
+
+p
+{
+    font-size: 1.3em;
 }
 
 #pictoLinkedIn
@@ -29,9 +41,27 @@ footer
     width: 40px;
 }
 
+#pictoLinkedIn:hover
+{
+    transform: scale(1.5);
+    transition: transform 330ms ease-in;
+}
 
 #pictoMail
 {
     height: 40px;
     width: 40px;
 }
+
+#pictoMail:hover
+{
+    transform: scale(1.5);
+    transition: transform 330ms ease-in;
+}
+
+#name
+{
+    text-align: center;
+    font-size: 1.3em;
+}
+
