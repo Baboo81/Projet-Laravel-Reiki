@@ -18,5 +18,6 @@
         @include('partials.navbar')
         <!--Contenu dynamique-->
         @yield('content')
+        @include('partials.footer')
     </body>
 </html>
