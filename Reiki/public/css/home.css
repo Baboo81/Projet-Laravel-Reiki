@@ -29,17 +29,16 @@ section
 
 #titles
 {
+    font-size: 6em;
+    font-family: 'Tangerine', cursive;
+    color: var(--BleuMarine);
     margin-top: 0%;
     margin-left: 35%;
 }
 
-h1
+.mainTitles
 {
-    font-size: 9em;
-    font-family: 'Tangerine', cursive;
-    color: var(--BleuMarine);
     margin-top: 0%;
-    
 }
 
 /*p
