@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display&family=Poppins:wght@200&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Castoro+Titling&family=Shippori+Mincho:wght@500&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
+:root
+{
+    --Beige : #FBE0C3;
+    --Saumon : #FFBB98;
+    --Gris : #7D8E95;
+    --GrisFoncé : #344648;
+    --White : #FFFFFF;
+    --Turquoise : #1fbfb8;
+    --Olive : #05716c;
+    --Bleu : #1978a5;
+    --BleuMarine : #031163;
+}
 
 ul
 {
@@ -6,10 +21,10 @@ ul
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 240px;
     width: 100%;
     justify-content: space-evenly;
-    margin-top: -10%;
+    margin-top: 0%;
 }
 
 li
@@ -19,7 +34,7 @@ li
 
 li a 
 {
-    color: var(--BleuMarine);
+    color: var(--Saumon);
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -29,5 +44,5 @@ li a
 
 li a:hover
 {
-    color: var(--Turquoise);
+    color: var(--BleuMarine);
 }

@@ -20,20 +20,26 @@ body
     overflow-x: hidden;
 }
 
-#titles
+section
 {
-    margin-top: 10%;
-    margin-left: 40%;
+    height: 1500px;
+    width: 100%;
     background-image: url(../img/fengShui.jpg);
 }
 
-#mainTitle
+#titles
 {
-    text-align: center;
+    margin-top: 0%;
+    margin-left: 35%;
+}
+
+h1
+{
     font-size: 9em;
     font-family: 'Tangerine', cursive;
     color: var(--BleuMarine);
     margin-top: 0%;
+    
 }
 
 /*p
