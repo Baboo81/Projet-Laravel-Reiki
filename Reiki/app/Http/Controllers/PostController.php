@@ -8,13 +8,12 @@ class PostController extends Controller
 {
     public function index()
     {
-        $posts = [
-            'Le Reiki',
-            'un art de vivre'
-        ];
+        $mainTitle = 'Le Reiki';
+        $mainTitle2 = 'un art de vivre';
+        
        
 
-        return view('home', compact('posts'));
+        return view('home', compact('mainTitle', 'mainTitle2'));
     }
 
     public function intro()

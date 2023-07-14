@@ -17,6 +17,9 @@
 
 body
 {
+    font-family: sans-serif;
+    background-color: #0F1923;
+    color: #FFF;
     overflow-x: hidden;
 }
 
@@ -43,3 +46,51 @@ section
     font-family: 'Crimson Text', serif;
 }
 */
+
+.page
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title
+{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.title span
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 0.8;
+}
+
+.title span span
+{
+    animation: titleReveal .7s both;
+}
+
+@keyframes titleReveal {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.page-absolute
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: yellow;
+    opacity: .5;
+}
