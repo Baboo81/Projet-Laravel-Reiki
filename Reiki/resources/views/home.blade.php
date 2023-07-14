@@ -4,7 +4,7 @@
     <section>
         <div id="titles">
             @foreach($posts as  $post)
-                <h1 class="mainTitles">{{ $post }}</h1>
+                <h1>{{ $post }}</h1>
             @endforeach
         </div>
     </section>

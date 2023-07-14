@@ -29,16 +29,12 @@ section
 
 #titles
 {
+    position: absolute;
     font-size: 6em;
     font-family: 'Tangerine', cursive;
     color: var(--BleuMarine);
-    margin-top: 0%;
-    margin-left: 35%;
-}
-
-.mainTitles
-{
-    margin-top: 0%;
+    top: 25%;
+    left: 50%;
 }
 
 /*p
