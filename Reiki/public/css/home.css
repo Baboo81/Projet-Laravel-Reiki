@@ -17,9 +17,7 @@
 
 body
 {
-    font-family: sans-serif;
     background-color: #0F1923;
-    color: #FFF;
     overflow-x: hidden;
 }
 
@@ -58,16 +56,19 @@ section
 
 .title
 {
-    font-weight: 700;
-    font-size: 50px;
-    text-transform: uppercase;
+    position: absolute;
+    font-size: 8em;
+    font-family: 'Tangerine', cursive;
+    color: var(--BleuMarine);
+    top: 25%;
+    left: 50%;
 }
 
 .title span
 {
     display: inline-block;
     overflow: hidden;
-    line-height: 0.8;
+    line-height: 1.8;
 }
 
 .title span span
